@@ -1,0 +1,56 @@
+.education-section {
+  background: linear-gradient(135deg, #4b6cb7, #182848);
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+}
+
+.my-title {
+  font-size: 2.5rem;
+  background-color: #f4f4f9e6;
+  border: 1px solid #182848;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+  color:  #ff416c;
+  padding: 15px;
+  margin-bottom: 0px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.education-card {
+  flex: 1 1 calc(25% - 20px); /* 4 cards per row */
+  max-width: calc(25% - 20px);
+  background: #ff416dcf;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+
+.education-card:hover {
+  transform: translateY(-5px);
+  background: #f4f4f9e6;
+  color: #ff416c;
+  border: 2px solid #ff416c;
+}
+
+.education-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.education-card p {
+  margin: 5px 0;
+}
